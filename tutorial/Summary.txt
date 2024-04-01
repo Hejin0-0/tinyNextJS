@@ -106,3 +106,15 @@ return (
 }
 ```
 https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts
+
+
+# 2 - 8. Metadata
+
+Metadata
+Next.js에는 향상된 SEO 및 웹 공유성을 위해 애플리케이션 메타데이터(ex: HTML head 엘리먼트 내의 meta 및 link 태그)를 정의하는 데 사용할 수 있는 메타데이터 API가 있습니다.
+https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+
+Dynamic Metadata (동적 메타데이터)
+generateMetadata 함수를 사용하여 동적 값이 필요한 메타데이터를 가져올 수 있습니다.
+https://nextjs.org/docs/app/building-your-application/optimizing/metadata#dynamic-metadata
+
