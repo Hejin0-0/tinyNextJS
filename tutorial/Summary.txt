@@ -83,3 +83,26 @@ https://nextjs.org/docs/app/building-your-application/rendering/composition-patt
 서버 컴포넌트를 클라이언트 컴포넌트에 prop으로 전달할 수 있습니다.
 일반적인 패턴은 React children prop을 사용하여 클라이언트 컴포넌트에 "slot"을 만드는 것입니다.
 https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#supported-pattern-passing-server-components-to-client-components-as-props
+
+
+# 2 - 7. Layout
+
+Pages and Layouts
+
+React 모델을 사용하면 페이지를 일련의 컴포넌트로 분해할 수 있습니다. 이러한 컴포넌트 중 다수는 페이지 간에 재사용되는 경우가 많습니다.
+예를 들어 모든 페이지에 동일한 네비게이션 바와 푸터가 있을 수 있습니다.
+```
+import Navbar from './navbar'
+import Footer from './footer'
+
+export default function Layout({ children }) {
+return (
+<>
+< Navbar / >
+< main >{children}< /main >
+< Footer / >
+</>
+)
+}
+```
+https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts
