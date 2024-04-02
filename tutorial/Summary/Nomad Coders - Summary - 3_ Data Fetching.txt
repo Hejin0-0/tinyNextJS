@@ -42,6 +42,8 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Pr
 
 
 # 3 - 5. Suspense
+react component "Suspense" 는 loading 상태를 분리 가능.
+
 Async Server Component TypeScript Error 오류 해결 방법
 
 Its return type 'Promise' is not a valid JSX element.
@@ -66,7 +68,10 @@ https://nextjs.org/docs/app/building-your-application/configuring/typescript#asy
 
 
 # 3 - 7. Error Handling
+error.js 파일 규칙을 사용하면 중첩된 경로에서 예기치 않은 런타임 오류를 적절하게 처리할 수 있습니다.
+단, 만약에 (movies)>movies>[id]>error.tsx을 생성하면 /movies/id에만 적용된다.
 
+https://nextjs.org/docs/app/building-your-application/routing/error-handling
 
 
 # 3 - 8. Conclusions
