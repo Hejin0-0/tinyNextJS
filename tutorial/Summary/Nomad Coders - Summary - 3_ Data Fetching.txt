@@ -1,0 +1,38 @@
+# 3 - 0. Introduction
+
+Movie API
+https://nomad-movies.nomadcoders.workers.dev
+
+JSON Viewer (구글 확장프로그램)
+https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
+
+# 3 - 1. Client Side
+
+
+
+# 3 - 2. Server Side
+
+
+
+# 3 - 3. Loading Components
+
+
+
+# 3 - 4. Parallel Requests
+
+
+
+# 3 - 5. Suspense
+
+
+
+# 3 - 6. Recap
+
+
+
+# 3 - 7. Error Handling
+
+
+
+# 3 - 8. Conclusions
