@@ -44,15 +44,46 @@ https://nextjs.org/docs/app/api-reference/functions/use-router
 
 
 # 4 - 3. Movie Trailers
+Number.prototype.toFixed()
+toFixed() 메서드는 숫자를 고정 소수점 표기법(fixed-point notation)으로 표시합니다.
+```
+const numObj = 12345.6789;
+numObj.toFixed(1); // Returns '12345.7': 반올림합니다.
+```
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
 
+
+iframe
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowFullScreen
 
 
 # 4 - 4. Dynamic Metadata
+generateMetadata
+메타데이터 객체(metadata) 및 generateMetadata 함수 export는 서버 컴포넌트에서만 지원됩니다.
+동일한 경로에서 메타데이터 객체와 generateMetadata 함수를 모두 export 할 수는 없습니다. (둘 중 하나만 사용 가능)
+https://nextjs.org/docs/app/api-reference/functions/generate-metadata#generatemetadata-function
 
+코드 챌린지
+- 아래 3개의 API를 이용해서 credits, providers, similar 페이지 추가하기
+- /movies/:id/credits
+- /movies/:id/providers
+- /movies/:id/similar
+- 스타일링하기
 
 
 # 4 - 5. Deployment
+Vercel Dashboard
+https://vercel.com/dashboard
 
+typescript 설치
+npm install --save-dev typescript
+
+Link Props (prefetch)
+prefecth은 Link 컴포넌트가 사용자의 뷰포트에 들어갈 때(초기 또는 스크롤을 통해) 발생합니다.
+Next.js는 연결된 경로(href로 표시됨)와 데이터를 백그라운드에서 prefetch 및 load하여 클라이언트 측 네비게이션 성능을 향상시킵니다.
+prefecth는 프로덕션에서만 활성화됩니다. (기본값 true)
+https://nextjs.org/docs/pages/api-reference/components/link#prefetch
 
 
 # 4 - 6. Conclusions
